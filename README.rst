@@ -1,6 +1,17 @@
 ===================
-ImageHorizonLibrary
+ImageHorizonLibrary (Fork)
 ===================
+
+Fork Overview
+---------------------
+
+This is a personalized fork of the original image recognition library for Robot Framework.
+It extends the functionality with additional keywords and features needed for an ongoing desktop image recognition test.
+The enhancements include new image processing options (such as blurring and edge detection),
+advanced image comparison settings, and the ability to define custom search frames for more precise recognition.
+
+Original Readme
+---------------------
 
 This Robot Framework library provides the facilities to automate GUIs based on
 image recognition similar to Sikuli. This library wraps pyautogui_ to achieve
@@ -14,7 +25,11 @@ install `opencv-python` package if you do not use confidence level.
 Keyword documentation
 ---------------------
 
-`Keyword Documentation`__
+`Fork Keyword Documentation`__
+
+__ https://github.com/Wolfmercury/robotframework-imagehorizonlibrary.git/doc/ImageHorizonLibrary.html
+
+`Original Keyword Documentation`__
 
 __ http://eficode.github.io/robotframework-imagehorizonlibrary/doc/ImageHorizonLibrary.html
 
@@ -33,7 +48,7 @@ __ https://travis-ci.org/Eficode/robotframework-imagehorizonlibrary/
 Prerequisites
 -------------
 
-- `Python 3.x`
+- `Python >= 3.6`
 - pip_ for easy installation
 - pyautogui_ and `it's prerequisites`_
 - `Robot Framework`_
@@ -146,7 +161,7 @@ To regenerate documentation (`doc/ImageHorizonLibrary.html`), use this command:
     $ python -m robot.libdoc -P ./src ImageHorizonLibrary doc/ImageHorizonLibrary.html
 
 
-.. _Python 3.x: http://python.org
+.. _Python 3.6+: http://python.org
 .. _pip: https://pypi.python.org/pypi/pip
 .. _pyautogui: https://github.com/asweigart/pyautogui
 .. _it's prerequisites: https://pyautogui.readthedocs.org/en/latest/install.html
